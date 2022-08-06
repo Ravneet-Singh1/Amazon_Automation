@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-05T23:06:04 IST" name="Amazon Complete Suite" finished-at="2022-08-05T23:07:10 IST" duration-ms="65573">
+    <groups>
+    </groups>
+    <test started-at="2022-08-05T23:06:04 IST" name="Test" finished-at="2022-08-05T23:07:10 IST" duration-ms="65573">
+      <class name="testCases.HomePage">
+        <test-method is-config="true" signature="config()[pri:0, instance:testCases.HomePage@e260766]" started-at="2022-08-05T23:06:04 IST" name="config" finished-at="2022-08-05T23:06:05 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="basePage()[pri:0, instance:testCases.HomePage@e260766]" started-at="2022-08-05T23:06:05 IST" name="basePage" finished-at="2022-08-05T23:06:17 IST" duration-ms="12481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePage -->
+        <test-method signature="LogInTest()[pri:0, instance:testCases.HomePage@e260766]" started-at="2022-08-05T23:06:17 IST" name="LogInTest" finished-at="2022-08-05T23:06:23 IST" depends-on-methods="testCases.HomePage.basePage" duration-ms="5713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTest -->
+        <test-method signature="ReturnAndOrders()[pri:0, instance:testCases.HomePage@e260766]" started-at="2022-08-05T23:06:23 IST" name="ReturnAndOrders" finished-at="2022-08-05T23:06:31 IST" depends-on-methods="testCases.HomePage.LogInTest" duration-ms="8445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnAndOrders -->
+        <test-method signature="SearchProduct()[pri:0, instance:testCases.HomePage@e260766]" started-at="2022-08-05T23:06:31 IST" name="SearchProduct" finished-at="2022-08-05T23:06:51 IST" depends-on-methods="testCases.HomePage.ReturnAndOrders" duration-ms="19400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method signature="ProductInCart()[pri:0, instance:testCases.HomePage@e260766]" started-at="2022-08-05T23:06:51 IST" name="ProductInCart" finished-at="2022-08-05T23:07:07 IST" depends-on-methods="testCases.HomePage.SearchProduct" duration-ms="16713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductInCart -->
+        <test-method is-config="true" signature="newTest()[pri:0, instance:testCases.HomePage@e260766]" started-at="2022-08-05T23:07:07 IST" name="newTest" finished-at="2022-08-05T23:07:10 IST" duration-ms="2504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTest -->
+      </class> <!-- testCases.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Amazon Complete Suite -->
+</testng-results>
